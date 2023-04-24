@@ -1,5 +1,7 @@
-* {
-    ;
+body {
+    background: linear-gradient(to bottom, #0A58EF 0%, #0A255B 100%) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-flipper {
@@ -20,14 +22,43 @@
 
 .card-front {
     color: white;
-    background-color: #008ACE;
     font-size: xx-large;
 }
 
+.first {
+    background: url(/doar.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+}
+
+.second {
+    background: url(/popimauto.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.third {
+    background: url(/bituah-leumi.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
 .card-back {
-    color: #222222;
-    background-color: #CEDB56;
+    color: #008ACE;
+    font-size: xx-large;
+    background-color: white;
     transform: rotateY(180deg);
+    height: 200px;
+    width: 200px;
 }
 
 .card-flipper:hover {
