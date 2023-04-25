@@ -74,6 +74,7 @@ h1 {
     justify-content: center;
     position: absolute;
     left: 330px;
+    box-shadow: 4px 5px 8px 5px #101c1d;
 }
 
 .intro {
