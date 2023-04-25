@@ -5,62 +5,106 @@ body {
 }
 
 .card-flipper {
-    display: inline-block;
-    height: 300px;
-    width: 200px;
+    display: flex;
+    height: 280px;
+    width: 280px;
     transform-style: preserve-3d;
     transition: transform 1s;
     cursor: pointer;
+    margin: 15px;
+   
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card-name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .card {
-    position: absolute;
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
 }
 
 .card-front {
-    color: white;
-    font-size: xx-large;
+    
+    position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 280px;
+    height: 280px;
+    background: rgba(148, 159, 255, 0.7);
+    border-radius: 15px;
 }
 
-.first {
-    background: url(/doar.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
-    width: 200px;
-}
-
-.second {
-    background: url(/popimauto.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
-}
-
-.third {
-    background: url(/bituah-leumi.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
-}
 
 .card-back {
-    color: #008ACE;
-    font-size: xx-large;
-    background-color: white;
+    
+    position: absolute;
+	justify-content: center;
+	align-items: center;
+    width: 280px;
+    height: 280px;
+    background: rgba(148, 159, 255, 0.7);
+    border-radius: 15px;
     transform: rotateY(180deg);
-    height: 200px;
-    width: 200px;
+
+}
+
+.img-back {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.eng-name {
+
+    margin-top: 30px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .card-flipper:hover {
     transform: rotateY(180deg);
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h3 {
+    display: flex;
+    width: 1180px;
+    height: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 30px;
+    justify-content: center;
 }
