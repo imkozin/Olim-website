@@ -31,7 +31,7 @@ body {
     height: 90px;
 }
 
-li > a {
+.menu a {
     color: white;
     display: block;
     font-family: 'Ubuntu', sans-serif;

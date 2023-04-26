@@ -31,7 +31,7 @@ body {
     height: 90px;
 }
 
-li > a {
+.menu a {
     color: white;
     display: block;
     font-family: 'Ubuntu', sans-serif;
@@ -73,4 +73,22 @@ h1 {
     border: 5px solid white;
     margin-left: 50px;
     margin-right: 100px;
+}
+
+#minilist {
+    list-style-type: disc;
+    margin: 75px;
+}
+
+#minilist a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#minilist li {
+    margin: 10px auto;
+    line-height: 1.5;
+    color: white;
 }
