@@ -72,7 +72,7 @@ h1 {
 .line-style {
     border: 5px solid white;
     margin-left: 50px;
-    margin-right: 100px;
+    width: 68%;
 }
 
 #minilist {
