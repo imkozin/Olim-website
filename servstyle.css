@@ -161,9 +161,6 @@ h1 {
 }
 
 h3 {
-    display: flex;
-    width: 1180px;
-    height: 48px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -171,6 +168,7 @@ h3 {
     line-height: 48px;
     color: #FFFFFF;
     margin: 30px;
+    margin-top: 70px;
     text-align: center;
 }
 
