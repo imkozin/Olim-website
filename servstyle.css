@@ -64,7 +64,8 @@ h1 {
     font-weight: 800;
     font-size: 76px;
     line-height: 96px;
-    text-align: center;
+    text-align: left;
+    margin-left: 50px;
     margin-top: 50px;
 }
 
@@ -89,7 +90,7 @@ h1 {
 .card-name {
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Outfit';
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +140,7 @@ h1 {
 .eng-name {
 
     margin-top: 30px;
-    font-family: 'Outfit';
+    font-family:  'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -170,5 +171,11 @@ h3 {
     line-height: 48px;
     color: #FFFFFF;
     margin: 30px;
-    justify-content: center;
+    text-align: center;
+}
+
+.line-style {
+    border: 5px solid white;
+    margin-left: 50px;
+    margin-right: 100px;
 }
