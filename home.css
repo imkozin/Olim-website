@@ -72,9 +72,11 @@ h1 {
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    position: absolute;
-    left: 330px;
+
+}
+iframe{
     box-shadow: 4px 5px 8px 5px #101c1d;
+
 }
 
 .intro {
@@ -84,7 +86,7 @@ h1 {
 
 .container {
     position: relative;
-    margin: 600px 100px 0 100px;
+    margin: 100px 100px 0 100px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;

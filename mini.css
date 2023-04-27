@@ -78,6 +78,8 @@ h1 {
 #minilist {
     list-style-type: disc;
     margin: 75px;
+    
+
 }
 
 #minilist a {
@@ -88,7 +90,26 @@ h1 {
 }
 
 #minilist li {
-    margin: 10px auto;
+    /* margin: 10px auto; */
     line-height: 1.5;
     color: white;
+    
+}
+
+.test{
+    color: white;
+   
+    font-size: 2em;
+}
+#minilist2{
+    margin: 75px;
+
+}
+#minilist2 a{
+text-decoration: none;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+}
+#minilist2 li {
+    line-height: 1.5;
 }
