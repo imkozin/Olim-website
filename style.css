@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #0A58EF 0%, #0A255B 100%) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 110px;
+    width: 100%;
+    height: 90px;
+}
+
+.menu a {
+    color: white;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 5px;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 175px;
+    text-transform: uppercase;
+    transition-property: background-color;
+    border-radius: 10px;
+}
+
+#border {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: rgb(118, 205, 216,.5);
+}
+
+/* Styling of H1 and H3 Headers */
+
+h1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 96px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#homeHeader {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 30px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* Properties of Horizontal Line */
+
+.line-style {
+    border: 5px solid white;
+    margin-left: 50px;
+    width: 68%;
+}
+
+/* Video Frame */
+
+.video {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+iframe{
+    box-shadow: 4px 5px 8px 5px #101c1d;
+
+}
+
+/* Text below Video Frame */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    position: relative;
+    margin: 100px 100px 0 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 42px;
+    text-align: justify;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+/* Flipping cards of Services */
+
+.card-flipper {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+    margin: 15px;
+   
+}
+
+.card-flipper:hover {
+    transform: rotateY(180deg);
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card-name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    
+    position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 280px;
+    height: 280px;
+    background: rgba(148, 159, 255, 0.7);
+    border-radius: 15px;
+}
+
+
+.card-back {
+    
+    position: absolute;
+	justify-content: center;
+	align-items: center;
+    width: 280px;
+    height: 280px;
+    background: rgba(148, 159, 255, 0.7);
+    border-radius: 15px;
+    transform: rotateY(180deg);
+
+}
+
+.img-back {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.eng-name {
+
+    margin-top: 30px;
+    font-family:  'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Properties for the LIST of Ministries */
+
+.minilist {
+    color: white;
+    font-size: 2em;
+}
+
+#minilist2 {
+    margin: 75px;
+
+}
+#minilist2 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#minilist2 li {
+    line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #0A255B;
+}
