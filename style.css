@@ -19,7 +19,7 @@ body {
     height: 90px;
 }
 
-/* Menu */
+/* ------------------------------Menu */
 
 .menu {
     display: flex;
@@ -109,7 +109,7 @@ li a:hover {
     background-color: rgb(118, 205, 216,.5);
 }
 
-/* Styling of H1 and H3 Headers */
+/* ------------------------------Styling of H1 and H3 Headers */
 
 h1 {
     color: white;
@@ -139,7 +139,7 @@ h3 {
     text-align: center;
 }
 
-/* Properties of Horizontal Line */
+/* ------------------------------Properties of Horizontal Line */
 
 .line-style {
     border: 5px solid white;
@@ -147,7 +147,7 @@ h3 {
     width: 68%;
 }
 
-/* Video Frame */
+/* ------------------------------Video Frame */
 
 .video {
     margin-top: 100px;
@@ -160,7 +160,7 @@ iframe{
 
 }
 
-/* Text below Video Frame */
+/* ------------------------------Text below Video Frame */
 
 .intro {
     display: flex;
@@ -180,31 +180,8 @@ iframe{
     width: 50%;
 }
 
-.block {
-    width: 250px;
-    height: 200px;
-    border: 3px solid white;
-    transition: all 1s;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 30px;
-    border-radius: 10px;
-    padding: 65px 0;
-    text-align: center;
-    margin-bottom: 100px;
-}
 
-a {
-    text-decoration: none;
-}
-
-.block:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background: none;
-}
-
-/* Flipping cards of Services */
+/* ------------------------------Flipping cards of Services */
 
 .card-flipper {
     display: flex;
@@ -219,12 +196,6 @@ a {
 
 .card-flipper:hover {
     transform: rotateY(180deg);
-}
-
-#cardContainer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .caption {
@@ -297,7 +268,7 @@ a {
     color: #FFFFFF;
 }
 
-/* Properties for the LIST of Ministries */
+/* ------------------------------Properties for the LIST of Ministries */
 
 .minilist {
     color: white;
@@ -317,7 +288,40 @@ a {
     line-height: 1.5;
 }
 
-/* Footer */
+/* ------------------------------Popular cards */
+
+.block {
+    width: 250px;
+    height: 200px;
+    border: 3px solid white;
+    transition: all 1s;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: none;
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* ------------------------------Footer */
 
 footer {
     font-family: 'Ubuntu', sans-serif;
